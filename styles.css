@@ -555,3 +555,53 @@ footer {
         margin-top: 5px;
     }
 }
+
+/* Project Links */
+.project-links {
+    display: flex;
+    gap: 14px;
+    margin-top: 16px;
+    flex-wrap: wrap;
+}
+
+.project-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--accent-1);
+    text-decoration: none;
+    border: 1px solid rgba(56, 189, 248, 0.25);
+    padding: 6px 14px;
+    border-radius: 100px;
+    transition: all 0.3s ease;
+    background: rgba(56, 189, 248, 0.05);
+}
+
+.project-links a:hover {
+    background: rgba(56, 189, 248, 0.15);
+    border-color: var(--accent-1);
+    transform: translateY(-2px);
+}
+
+/* Timeline item spacing */
+.timeline-item {
+    margin-bottom: 20px;
+}
+
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+/* Experience company link */
+.exp-company a {
+    color: var(--accent-1);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.exp-company a:hover {
+    color: var(--accent-2);
+    text-decoration: underline;
+}
